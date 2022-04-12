@@ -1,0 +1,27 @@
+h1,h2,h3,h4,h5,h6,p,span,a,label, .ltr, input, .navbar-nav a, select {
+    direction: ltr;
+}
+label {
+    width: 100%;
+}
+.benefit-item .benefit-icon {
+    float: right;
+}
+.benefit-item .benefit-title, .benefit-item p {
+    margin-left: 0;
+    margin-right: 80px;
+}
+small, input, .navbar-nav a {
+    text-align: right;
+}
+.mob {
+    display: none;
+}
+@media (max-width: 560px) {
+    .mob {
+        display: block;
+    }
+    .dkt {
+        display: none;
+    }
+}
